@@ -28,7 +28,6 @@ enabled = true
 # Requires Workers Paid plan
 [browser]
 binding = "BROWSER"
-id = "648e9cc7be544fecb480923001cc72ea"
 
 # Share Browser Run sessions across requests and Worker isolates.
 [[durable_objects.bindings]]
