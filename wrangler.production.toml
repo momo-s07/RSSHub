@@ -43,13 +43,13 @@ new_sqlite_classes = ["BrowserSession"]
 binding = "CACHE"
 
 # PLAYWRIGHT_WS_ENDPOINT takes priority over BROWSER; use a matching Playwright version.
-[[services]]
-binding = "PLAYWRIGHT_SERVICE"
-service = "cloudflare-patchright"
+#[[services]]
+#binding = "PLAYWRIGHT_SERVICE"
+#service = "cloudflare-patchright"
 
 [vars]
 # Only use the service binding for this endpoint origin.
-PLAYWRIGHT_SERVICE_ORIGIN = "https://cloudflare-patchright.rss3.workers.dev"
+#PLAYWRIGHT_SERVICE_ORIGIN = "https://cloudflare-patchright.rss3.workers.dev"
 # Environment variables can be set here or via wrangler secret
 # DEBUG_INFO = "false"
 
